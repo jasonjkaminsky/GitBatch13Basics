@@ -1,0 +1,26 @@
+===== Tracking our project using git =====
+1. Navigate to the location where u want to create the repository.
+2. create a repo  (git init)
+3. track all the files and adding them to staging area ( git add . )
+4. place all files in the repository  ( git commit -m "commit message" )
+git status : shows you all the untracked files in red,
+tracked files that are not yet in repo by green.
+
+In order to sync everything with remote repo do the following:
+1. goto github
+2. create a new repo
+3. connect your local repo to the remote repo that you  just created
+to make connection *git remote add origin URL
+rename the branch  *git branch -M main
+* u dont need these steps again for this repo*
+4.push you codes to github
+git push -u origin main (if you are pushing first time)
+after that u can use just git push
+
+Please take care of following steps while pushing your java project:
+1. THE LOCATION OF YOUR REPO (create repo inside the proejct , not in 
+any package or any class)
+2. make sure that when ever you run a command , it has sucesfuuly 
+executed and is not giving eroors
+3. create a new github repo
+4. establish the connection and recheck it using git remote -v
