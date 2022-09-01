@@ -1,0 +1,69 @@
+req1:
+to create the basic solar system and deploy it in the main branch
+req2:
+the feature SUN needs to be added
+req 3:
+hey please add 2 planets in the solar system along with their 
+speicifcations
+please make sure to hire 2 persons to do the job in parallel.
+
+USER_X:
+1. clone the project
+2. make a branch of planet
+3. add some code for planet
+4. commit the code and make sure it is error free
+5. push to the remote
+6. once reviewed by team lead then merge the code of planet to the main 
+branch
+
+USER_Y:
+1. clone the project
+2. make a branch of planet
+3. add some code for planet
+4. commit the code and make sure it is error free
+5. push to the remote
+6. once reviewed by team lead then merge the code of planet to the main 
+branch
+TEAMLEAD:
+view the code of planets and after checking it merge it to main branch
+once the userX is done with work he will open a pull rewust to merge in 
+main
+
+---------Team Lead task------
+Merge:
+1. On github --> you cannot run the code and check for errors, 
+you can only look at it
+2. On computer --> you can test their code before merging .
+-------On computer using terminal------
+1. clone the project.
+2. git branch -a --> shows u all the branches on github
+3. git checkout branchname --> clone the branch u want
+4. run the cod eof branch make sure it is error free
+5. switch to parent branch
+6. git merge childbranch
+7. once done u can update ur main in github
+
+
+--------------------------------Stashing--------------------
+Requirements:
+Create a car and upload it to github.
+git stash -m "message"--> take the changes in code to stashing area
+and  return the condition of working directory to that fo the last commit.
+git stash list --> list all available stashes
+git stash apply stashnumber--- > apply that stash on the intellij
+Notes:
+if u have made the commit in your branch
+and u are trying to switch
+but git doesnt allow u to switch becuase it says there are some untacked 
+files that needs to be dealt
+do git status to see what are those file;
+if u didnot make these updates simply get rid of them
+by using the command
+git stash -u
+and then
+switch back to ur desired branch
+--------------------------------------------------------------------------
+
+* When ever u clone , by default git is going to clone only the main 
+branch
+--------------------------------------------------------------------------
